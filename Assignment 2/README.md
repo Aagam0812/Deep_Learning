@@ -3,7 +3,7 @@
 Welcome to the **LLM Explorer's Hub**! This repository is your ultimate guide to diving deep into the world of Large Language Models (LLMs). From OpenAI's cutting-edge technology to exploring open-source models like Llama 2 in various formats, we cover it all! 🎉
 
 ## Colab
-- **Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aagam0812/Deep_Learning/blob/main/Assignment%202/CMPE258_Assigment2_LLM.ipynb)
+- **Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aagam0812/Deep_Learning/blob/main/Assignment%202/CMPE258_Assignment2_LLM.ipynb)
 
 ## 📜 About
 
