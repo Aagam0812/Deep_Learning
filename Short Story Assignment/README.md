@@ -22,7 +22,7 @@ Watch the video presentation on Drive where I cover the key points from the surv
 
 Access the slide deck used in the video presentation via this Google Drive link:
 
-[View the slides here!]([your-google-drive-link](https://drive.google.com/drive/folders/1BWX1Cw29gndtRg7L9LCE4v-6ZJeWocaD?usp=sharing))
+[View the slides here!](https://drive.google.com/drive/folders/1BWX1Cw29gndtRg7L9LCE4v-6ZJeWocaD?usp=sharing)
 
 
 ## 📚 References
