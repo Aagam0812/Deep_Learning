@@ -20,9 +20,9 @@ Watch the video presentation on Drive where I cover the key points from the surv
 
 ## 📊 Slide Deck
 
-Access the slide deck used in the video presentation via this Google Drive link:
+Access the slide deck used in the video presentation via this SlideShare link:
 
-[View the slides here!](https://drive.google.com/drive/folders/1BWX1Cw29gndtRg7L9LCE4v-6ZJeWocaD?usp=sharing)
+[View the slides here!](https://www.slideshare.net/slideshow/unlocking-the-future-of-ai-agents-with-large-language-models/267698845)
 
 
 ## 📚 References
