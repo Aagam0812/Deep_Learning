@@ -1,54 +1,51 @@
-# Deep Learning from Scratch with Various Frameworks 🚀
+# Advanced Data Augmentation and Deep Learning Techniques
 
-This repository is a comprehensive guide to building deep neural networks from scratch using different frameworks such as NumPy, PyTorch, TensorFlow, and JAX. Each example demonstrates the construction of a 3-layer neural network for non-linear regression, illustrating the principles of manual backpropagation, gradient propagation, and the use of non-linear activation functions.
+Welcome to our repository where we explore advanced data augmentation and deep learning techniques using TensorFlow and Keras. This project is a collaboration among multiple team members, and it's structured into two main parts.
 
-## Description 📖
+## 📖 Overview
 
-The projects within this repository are designed to showcase the flexibility and power of manual neural network construction without relying on high-level API functionalities. Here's what's covered:
+This repository is structured to provide a detailed examination of various data augmentation techniques and deep learning constructs. Each directory contains Jupyter notebooks that demonstrate different aspects of machine learning models, from basic regularization techniques to complex custom layers and models.
 
-- **NumPy Neural Network**: A simple 3-layer neural network for non-linear regression built entirely with NumPy, including manual calculations for forward and backward passes.
-  
-  **Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aagam0812/Deep_Learning/blob/main/Assignment%205/CMPE258_Assignment5_PartA.ipynb)
+## 🛠️ Part 1: Data Augmentation Techniques
 
+In this section, we demonstrate a variety of data augmentation strategies and generalization techniques to enhance the performance of machine learning models across different types of data.
 
-- **PyTorch from Scratch**: Implementing a 3-layer neural network using PyTorch's tensor operations without the convenience of its high-level neural network modules.
+### Contents
 
-  **Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aagam0812/Deep_Learning/blob/main/Assignment%205/CMPE258_Assignment5_PartB.ipynb)
+- **TensorFlow and Keras Regularizations:**
+  - L1 and L2 regularization
+  - Dropout and Monte Carlo Dropout
+  - Early Stopping
+  - Various weight initializations
+  - Batch normalization
+  - Custom dropout and regularization techniques
+  - Callbacks and TensorBoard integration 
+  - Using Keras Tuner for hyperparameter optimization
 
-- **PyTorch with Classes**: Leveraging PyTorch's class-based system to structure a 3-layer neural network, utilizing its built-in functionality for modules and backpropagation.
+- **Data Augmentation for Diverse Data Types:**
+  - Image, video, text, time series, tabular data, speech, and document images.
+  - Keras CV for image data augmentation 
+  - AugLy library for robust data augmentation 
+  - FastAI data augmentation capabilities 
 
-  **Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aagam0812/Deep_Learning/blob/main/Assignment%205/CMPE258_Assignment5_PartC.ipynb)
+## 🚀 Part 2: Advanced Keras Deep Learning Constructs
 
-- **PyTorch Lightning Version**: Simplifying PyTorch code further using the PyTorch Lightning framework for a cleaner and more abstracted implementation.
+This section focuses on advanced Keras functionalities that can give an edge in building sophisticated neural network architectures.
 
-  **Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aagam0812/Deep_Learning/blob/main/Assignment%205/CMPE258_Assignment5_PartD.ipynb)
+### Features Demonstrated
 
-- **TensorFlow Variants**:
-  - **Low-level TensorFlow Implementation**: Dive into the granular control over the network's construction and training loop, offering a deep understanding of the foundational mechanics of TensorFlow operations.
+- Custom learning rate schedulers
+- Advanced dropout techniques (e.g., MCAlphaDropout)
+- Custom normalization (MaxNormDense)
+- Integration with TensorBoard for monitoring
+- Custom loss functions (HuberLoss)
+- Custom activation functions, initializers, regularizers, and kernel weight constraints
+- Custom metrics (HuberMetric)
+- Implementation of custom layers and models (e.g., exponential_layer, MyDense)
+- Custom optimizers (MyMomentumOptimizer)
+- Designing a custom training loop for fashion MNIST
 
-  - **Functional API Usage in TensorFlow**: Leverage the Functional API for a more modular and flexible approach to constructing neural networks, allowing for complex architectures through a simple and intuitive interface.
+## 📹 Video Walkthroughs
 
-  - **TensorFlow with Built-in Layers**: Accelerate development by utilizing TensorFlow's predefined layers, showcasing the ease and efficiency of rapid model prototyping and deployment.
+Video walkthrough explaining the code and demonstrating its execution
 
-  - **High-level API in TensorFlow**: Take advantage of TensorFlow's high-level API for streamlined model development and training, abstracting away the complexity of manual computations and significantly reducing the codebase.
-
-  **Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aagam0812/Deep_Learning/blob/main/Assignment%205/CMPE258_Assignment5_PartE.ipynb)
-
-- **JAX Implementation**: Utilizing JAX for high-performance, GPU-accelerated numerical computing in constructing and training the neural network.
-
-  **Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aagam0812/Deep_Learning/blob/main/Assignment%205/CMPE258_Assignment5_PartH.ipynb)
-
-## Features 🌟
-
-- 🧠 **Deep Neural Networks**: Dive into the architecture and training of deep neural networks for regression tasks.
-- 📚 **Manual Backpropagation**: Understand the inner workings of neural networks by manually implementing backpropagation algorithms.
-- 🔧 **Custom Layers with `einsum`**: Use Einstein summation convention (`einsum`) for efficient tensor operations and custom layer implementations.
-- 📉 **Training Visualization**: Visualize the training process with plots of losses over epochs and comparisons of actual vs. predicted outputs.
-
-## Demo Video 📹
-
-[Video link](https://drive.google.com/drive/folders/1sEeoAYSQOm1SYDgyYvBuBbB8rbCHA290?usp=sharing)
-
-## Conclusion and Insights 📝
-
-This repository offers a hands-on approach to understanding the nuts and bolts of neural network training and architecture without the abstraction layers introduced by high-level APIs. By building these networks from scratch, you gain a deeper understanding of the foundational principles of deep learning.
