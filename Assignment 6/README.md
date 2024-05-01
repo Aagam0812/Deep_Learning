@@ -47,5 +47,5 @@ This section focuses on advanced Keras functionalities that can give an edge in 
 
 ## 📹 Video Walkthroughs
 
-Video walkthrough explaining the code and demonstrating its execution
+For a detailed walkthrough of all this repository's features and functionalities, watch our demo video [here](https://drive.google.com/drive/folders/1KvGo-IBpjjgq6kctSwsFJXyR16WDCtNH?usp=sharing).
 
